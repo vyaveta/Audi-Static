@@ -1,0 +1,241 @@
+body{
+    margin: 0%;
+    font-family: "Audi Type Extended"; 
+}
+.fixed{
+  align-items:  center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 55px;
+}
+.container{
+    height: 40px;
+    width: 100%;
+}
+.menu{
+ display: inline-block;
+ font-size: 20px;
+ margin-left: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ margin-bottom: 20px;
+ cursor: pointer;
+ 
+}
+.logo{
+    margin-left: 500px;
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+}
+.india{
+    margin-left: 500px;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: pointer;
+}
+/*  END OF THE FIXED HEADER*/
+.new{
+    background:url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Audi Type Extended"; 
+}
+.new2{ 
+    padding-top:100px ;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.btn-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-color: white;
+   border-style: solid;
+    background-color:  rgba(0, 0, 0, 0.0);
+    margin-top: 40px;
+    color: white;
+    font-family: "Audi Type Extended";
+    font-size: 16px;
+    cursor: pointer;
+}
+.small-font{
+    margin-top: 30px;
+    color: black;
+    font-size: 10px;
+    justify-content: center;
+}
+.small-font2{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-container > div > img{
+    height:220px; width:400px;margin: 3px;
+    cursor: pointer;
+}
+
+.small-font3{
+   font-size: 13px;
+   line-height: 18px;
+   color: rgb(0, 0, 0);
+   opacity: 0.6;
+   margin-left: 15px;
+}
+.sub-heading{
+    margin-top: -10px;
+    font-size: 22px;
+}
+.sub-title{
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+.container-avant{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-title2{
+    font-size: 15px;
+    line-height: 18px;
+   margin-left: 40px;
+    font-weight: 500;
+}
+.btn-2{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+     background-color:  rgba(0, 0, 0, 0.0);
+     color: rgb(0, 0, 0);
+     font-family: "Audi Type Extended";
+     font-size: 16px;
+     padding-right: 80px;
+     padding-left: 80px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 40px;
+     cursor: pointer;
+}
+.small-font4{
+   font-size: 10px;
+   margin-left: 40px;
+}
+.container-avant2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.mini-subtitle{
+    font-size: 10px;
+    line-height: 18px;
+    margin-top: -15px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+/*end of repetive section*/
+/* audi media center button */
+.audimedia-button{
+    margin-top: 40px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+     background-color:  rgba(0, 0, 0, 0.0);
+     color: rgb(255, 255, 255);
+     font-family: "Audi Type Extended";
+     font-size: 14px;
+     font-weight: 500;
+     padding-right: 25px;
+     padding-left: 25px;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     background-color: black;
+     cursor: pointer;
+}
+/*the ending section*/
+.footer-div{
+    margin-top: 70px;
+    background-color: black;
+}
+.social-media{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+   justify-content:flex-start;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+.social-mediab{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+.footer-titles{
+    display: flex;
+    
+    justify-content: flex-start;
+    flex-direction :row;
+}
+.flex{
+    font-size: 22px;
+    color: white;
+    margin: 30px;
+    margin-left: 10%;
+}
+.final-list{
+    font-size: 13px;
+    color: white;
+}
+.linediv{
+    color: rgb(173, 171, 171);
+    font-size: 10px;
+}
+.final-flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.final-flex > div{
+
+    margin-left: 40px;
+}
+.final-list2{
+    font-size: 13px;
+    color: white;
+   vertical-align: super;   
+}
+.final{
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
